@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(43, 107, 226);
+}
+
+#container {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    width: 545px;
+    flex: none;
+    padding: 8px;
+}
+
+.box {
+    background-color: aqua;
+    padding: 16px;
+    margin: 1px;
+}
+
+button {
+    margin: 8px;
+    padding: 8px;
+}
