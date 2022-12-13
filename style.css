@@ -8,18 +8,19 @@ body {
 }
 
 #container {
-    background-color: black;
-    display: flex;
-    flex-flow: row wrap;
-    width: 545px;
-    flex: none;
-    padding: 8px;
+    background: black;
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-rows: repeat(var(--box-size),1fr);
+    grid-template-columns: repeat(var(--box-size), 1fr);
+    border: 1px solid black;
 }
 
 .box {
     background-color: aqua;
-    padding: 16px;
-    margin: 1px;
+    border: 1px solid black;
+    text-align: center;
 }
 
 button {
