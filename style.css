@@ -10,11 +10,12 @@ body {
 #container {
     background: black;
     display: grid;
-    width: 400px;
-    height: 400px;
+    width: 1000px;
+    height: 1000px;
     grid-template-rows: repeat(var(--box-size),1fr);
     grid-template-columns: repeat(var(--box-size), 1fr);
     border: 1px solid black;
+    padding: 4px
 }
 
 .box {

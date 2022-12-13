@@ -42,7 +42,7 @@ function generateGrid() {
             // reset color after 500ms
             setTimeout(() => {
                 event.target.style.backgroundColor = "aqua"
-            }, 500);
+            }, 1000);
         }, false);
     }
 }
